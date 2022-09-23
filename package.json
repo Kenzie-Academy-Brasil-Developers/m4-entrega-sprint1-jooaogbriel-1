@@ -6,7 +6,7 @@
   "author": "Pedro Costa <phmc99@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "cross-env SECRET_KEY=secret_key jest --forceExit",
     "start": "node src/app.js",
     "dev": "npx nodemon src/app.js"
   },
